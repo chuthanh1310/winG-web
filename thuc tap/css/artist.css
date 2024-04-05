@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header{
+    padding: 100px;
+    background-image: url("../pic/header.jpg");
+    color: white;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.img1{
+    width: 60%;
+    height: auto;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.section {
+    flex-basis: 20%; /* 20% width for each section to achieve 5 equal sections */
+    background-color: #f0f0f0; /* Just for visualization */
+    
+    box-sizing: border-box; /* Ensure border and padding don't affect the width */
+    text-align: center; /* Center align content */
+    padding: 20px; /* Add padding for better spacing */
+}
+video{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.footer{
+    background-color: black;
+}
+.button-item{
+    cursor: pointer;
+    width: 100%;
+    background-color: black;
+    color: grey;
+    border:none;
+}
+.button-item:hover{
+    color: white;
+}
+.back-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 9999;
+}
+.contact-img{
+    padding: 30px;
+    width: 100%;
+    height: 60vh;
+}

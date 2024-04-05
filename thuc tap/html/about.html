@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About us</title>
+        <link rel="stylesheet" href="../css/about.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.css">
+    </head>
+    <body>
+        <div id="rootAbt"></div>
+        <div class="header">
+            <h1 class="w3-center"><b>About us</b></h1>
+            <p class="w3-center"><b>Home > </b>About</p>
+        </div>
+        <div class="flex-content">
+            <div class="left-panel">
+                <div class="content">
+                  <h2>Welcome to <span style="font-weight: normal;"> Win G</span></h2> 
+                  <p style="font-size: 14px;color:gray">At corupti odit At iure facere,porro repellat officia quas,dolores magnam assumenda soluta odit harum maiores fugiat accusamuseos nulla,lure voluptatibus explicabo officia</p>
+                  <p style="font-size: 14px; color:gray"> Lorem ipsum,dolor sit amet consectecur adipisicing elit.At corupti odit? At iure facere, porro repellat officia quas, dolores magnam assumenda soluta odit harum </p> 
+                  <button class="w3-button w3-orange w3-round-xxlarge" style="padding-left: 50px; padding-right: 50px;">View all</button>
+                </div>
+            </div>
+              
+              <div class="right-panel">
+                <div class="content">
+                  <img src="../pic/adults-audience-band-concert-104887182.png" class="image-container">
+                </div>
+              </div>
+        </div>
+        <div class="timeline">
+            <div class="timeline_component">
+                <div class="timeline_date timeline_date_right">
+                    <div class="date_timeline"><p>January 1995</p></div>
+                </div>
+            </div>
+            <div class="timeline_mid">
+                <div class="timeline_point"></div>
+            </div>
+            <div class="timeline_component timeline_component_bg">
+                <p><b>We Founded the Melody Music School After Gathering a Team of Professional Music Teacher</b></p>
+            </div>
+            <div class="timeline_component timeline_component_bg">
+                <img class="timeline_img" src="../pic/whereez-recherche-animation.webp">
+            </div>
+            <div class="timeline_mid">
+                <div class="timeline_point"></div>
+            </div>
+            <div class="timeline_component">
+                <div class="timeline_date ">
+                    <div class="date_timeline"><p>January 1995</p></div>
+                </div>
+            </div>
+            <div class="timeline_component">
+                <div class="timeline_date timeline_date_right">
+                    <div class="date_timeline"><p>April 2010</p></div>
+                </div>
+            </div>
+            <div class="timeline_mid">
+                <div class="timeline_point"></div>
+            </div>
+            <div class="timeline_component timeline_component_bg">
+                <p><b>Introduction of a New Course:DJ and Beatmaking:Organizing First Public Event </b></p>
+            </div>
+            <div class="timeline_component timeline_component_bg">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/gzjasvooSG8?si=Pvj-9t5sBCdoyrmK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>  
+            <div class="timeline_mid">
+                <div class="timeline_point"></div> 
+            </div>
+            <div class="timeline_component">
+                <div class="timeline_date ">
+                    <div class="date_timeline"><p>April 2010</p></div>
+                </div>
+            </div>
+            <div class="timeline_component">
+                <div class="timeline_date ">
+                    <div class="date_timeline timeline_date_right"><p>May 2021</p></div>
+                </div>
+            </div>
+            <div class="timeline_mid_end">
+                <div class="timeline_point"></div> 
+            </div>
+            <div class="timeline_component timeline_component_bg">
+                <p><b>Getting Nationally Recognized:our First Awards from US Music Teachers Committee </b></p>
+            </div>
+        </div>
+        <div id="footer"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+        <script type="text/babel" src="../js/NavBar.js"></script>
+        <script type="text/babel">
+            function About() {
+                return (
+                  <div>
+                    <NavBar aboutLinkColor="orangered"/>
+                  </div>
+                );
+              }
+              ReactDOM.render(<About/>, document.getElementById('rootAbt'));
+        </script>
+        <script type="text/babel" src="../js/Footer.js"></script>
+        <script src="../js/about.js"></script>
+    </body>
+</html>

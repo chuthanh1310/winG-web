@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truyện AAAAAA</title>
+    <link rel="stylesheet" href="../css/winG.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.css">
+</head>
+<body>
+    <div id="rootProduct"></div>
+    <div class="Body">
+        <p>Home > Product > Truyện Tranh > <span class="w3-text-deep-orange">Truyện AAAAAAAA</span> </p>
+        <div class="bhead">
+            <div class="w3-container w3-light-blue w3-center">
+                <div class="w3-bar-item "><p><i class="fa-solid fa-circle-exclamation"></i>Sử dụng mũi tên trái (←) hoặc phải(→) để di chuyển chapter</p></div>
+            </div>
+            <div class="w3-container w3-center" style="margin:10px auto">
+                <div class="w3-bar">
+                    <div class="w3-bar-item w3-text-deep-orange"><i class="fa-solid fa-house"></i></div>
+                    <div class="w3-bar-item w3-text-deep-orange"><i class="fa-solid fa-list-ul"></i></div>
+                    <div class="w3-bar-item w3-text-deep-orange"><i class="fa-solid fa-rotate-left"></i></div>
+                    <div class="w3-bar-item w3-button w3-light-blue">←</div>
+                    <div class="w3-dropdown-hover">
+                        <button class="w3-button w3-text-black" style="width:200px">Chap 181</button>
+                        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                          <a href="#" class="w3-bar-item w3-button">Link 1</a>
+                          <a href="#" class="w3-bar-item w3-button">Link 2</a>
+                          <a href="#" class="w3-bar-item w3-button">Link 3</a>
+                        </div>
+                    </div>
+                    <div class="w3-bar-item w3-button w3-light-blue">→</div>
+                </div>
+            </div>
+        </div>
+        <div class="content-wibu"></div>
+    </div>
+    <div id="footer"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+    <script type="text/babel" src="../js/NavBar.js"></script>
+    <script type="text/babel" src="../js/Footer.js"></script>
+    <script type="text/babel">
+        function Product() {
+            return (
+                <div>
+                    <NavBar productLinkColor="orangered" />
+                </div>
+            );
+        }
+        ReactDOM.render(<Product />, document.getElementById('rootProduct'));
+
+    </script>
+</body>
+</html>

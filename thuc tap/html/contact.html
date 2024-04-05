@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/winG.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.css">
+    <style>
+        .header{
+            padding: 100px;
+            background-image: url("../pic/header.jpg");
+            color: white;
+            font-size: 30px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="rootContact"></div>
+    <div class="header">
+        <h2 class="w3-center"><b>Artist</b></h2>
+        <p class="w3-center"><b>Home > </b>Contact</p>
+    </div>
+    <div class="w3-center">
+        <h1><b>Contact Us</b></h1>
+    </div>
+    <div class="w3-row-padding">
+        <div class="w3-col s7">
+            <div class="wrapper">
+                <form action="">
+                    <div class="input-box">
+                        <div class="input-field">
+                            <input type="text" placeholder="your name" required>
+                        </div>
+                        <div class="input-field">
+                            <input type="email" placeholder="your email" required>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="input-field2">
+                            <input type="text" placeholder="subject" required>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="input-field2">
+                            <input type="url" placeholder="website url" required>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="input-field3">
+                            <input type="text" placeholder="type your message here" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="w3-button w3-deep-orange w3-round-xxlarge">Send message</button>
+                </form>
+            </div>
+        </div>
+        <div class="w3-col s5">
+            <div class="card">
+                <div class="headers">
+                    <div class="w3-row">
+                        <div class="w3-col l2 s3">
+                            <i class="fa-solid fa-building huge"></i> 
+                        </div>
+                        <div class="w3-col l10 s9">
+                            <p><b>Company address</b></p>
+                            <p>Musical,10001,5th avenue,12002 street,London</p>
+                        </div>
+                    </div>
+                    <div class="w3-row">
+                        <div class="w3-col l2 s3">
+                            <i class="fa-solid fa-phone huge"></i>
+                        </div>
+                        <div class="w3-col l10 s9">
+                            <p><b>Call us </b></p>
+                            <p>+1(21) 112 7368</p>
+                        </div>
+                    </div>
+                    <div class="w3-row">
+                        <div class="w3-col l2 s3">
+                            <i class="fa-solid fa-envelope-open-text huge"></i>
+                        </div>
+                        <div class="w3-col l10 s9">
+                            <p><b>Email us</b></p>
+                            <p>example@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="w3-row">
+                        <div class="w3-col l2 s3">
+                            <i class="fa-solid fa-headphones huge"></i>
+                        </div>
+                        <div class="w3-col l10 s9">
+                            <p><b>Customer support</b></p>
+                            <p>info@support.com</p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>   
+    </div>
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+    <div id="footer"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+    <script type="text/babel" src="../js/NavBar.js"></script>
+    <script type="text/babel" src="../js/Footer.js"></script>
+    <script type="text/babel">
+        function Contact() {
+            return (
+                <div>
+                    <NavBar contactLinkColor="orangered" />
+                </div>
+            );
+        }
+        ReactDOM.render(<Contact />, document.getElementById('rootContact'));
+    </script>
+    <script>
+        function myMap() {
+        var mapProp= {
+          center:new google.maps.LatLng(51.508742,-0.120850),
+          zoom:5,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+    </script>
+        
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzBdtrQmt4uHMOlT46SdtiNHWkqKL8s5k&callback=myMap"></script>
+</body>

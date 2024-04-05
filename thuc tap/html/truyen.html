@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truyện tranh</title>
+    <link rel="stylesheet" href="../css/winG.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.css">
+    <style>
+        .header{
+            padding: 100px;
+            background-image: url("../pic/header.jpg");
+            color: white;
+            font-size: 30px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: auto;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div id="rootProduct"></div>
+    <div class="header">
+        <h2 class="w3-center"><b>Artist</b></h2>
+        <p class="w3-center"><b>Home > Products > </b>Truyện tranh</p>
+    </div>
+    <div id="content">
+    <div class="w3-center">
+        <div class="w3-bar">
+            <h2 style="text-align: center;">Truyện tranh</h2>
+            <button class="w3-button w3-yellow w3-round-xxlarge">All</button>
+            <button class="w3-button w3-gray w3-round-xxlarge">Manga</button>
+            <button class="w3-button w3-aqua w3-round-xxlarge">Manhua</button>
+            <button class="w3-button w3-white ">VIEW ALL</button>
+        </div>
+    </div>
+    
+        <div class="w3-row" style="display: flex;">
+            <div class="w3-col w3-light-gray w3-container" style="width: 20%; flex: 1;">
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/lâu đài man rợ.jpg" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 0 <i class="fa-solid fa-comment"> 49 <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-regular fa-images"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>LÂU ĐÀI MAN RỢ</h4>
+                        <p>Chap 4</p>
+                    </div>
+                </div>
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/9000t.jpg" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-purple w3-round">
+                                <div class="w3-bar-item w3-round">Đã hoàn thành</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 3 <i class="fa-solid fa-comment"> 5.75K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-regular fa-images"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>Hoàng phi cửu thiên tuế</h4>
+                        <p>Ngoại truyện 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col w3-light-gray w3-container" style="width: 20%; flex: 1;" onclick="changeContent()">
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/thiếu niên ca hành.jpg" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 3 <i class="fa-solid fa-comment"> 1.4K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center w3-hover-grey" style="cursor:pointer">
+                        <h4>Thiếu niên ca hành-Hoạt hình-FULL CÁC PHẦN</h4>
+                        <p>Tập 11-Phần 3 NGANG RAW</p>
+                    </div>
+                </div>
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/công tước.webp" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-purple w3-round">
+                                <div class="w3-bar-item  w3-round">Đã hoàn thành</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 1 <i class="fa-solid fa-comment"> 4.18K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-regular fa-images"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>Không muốn gả cho công tước cuồng anh trai đâu</h4>
+                        <p>111 End</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col w3-light-gray w3-container" style="width: 20%; flex: 1;">
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/khóc và cầu nguyện.jpg" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 3 <i class="fa-solid fa-comment"> 1.4K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-solid fa-film"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>Hãy khóc và cầu nguyện đi</h4>
+                        <p>18</p>
+                    </div>
+                </div>
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <div class="w3-display-container">
+                            <img src="../pic/vương phi.jpg" alt="Alps" style="width:100%;height:300px">
+                            <div class="w3-display-bottomleft w3-container">
+                                <div class="w3-bar w3-purple w3-round">
+                                    <div class="w3-bar-item  w3-round">Đã hoàn thành</div>
+                                </div>
+                                <div class="w3-bar w3-black w3-section">
+                                    <div class="w3-bar-item">
+                                        0 <i class="fa-solid fa-heart"></i> 1 <i class="fa-solid fa-comment"> 4.18K <i
+                                                class="fa-solid fa-eye"></i></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w3-display-bottomright w3-container">
+                                <div class="w3-bar w3-black w3-section">
+                                    <div class="w3-bar-item">
+                                        <i class="fa-regular fa-images"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="w3-container w3-center">
+
+                        <h4>Vương phi thật uy vũ</h4>
+                        <p>54 End-Sẽ không tha cho cô </p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col w3-light-gray w3-container" style="width: 20%; flex: 1;">
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/thiên quan tứ phúc.jpg" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 15 <i class="fa-solid fa-comment"> 14K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-solid fa-film"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>Thiên quan tứ phúc-Hoạt hình</h4>
+                        <p>Tập 9-phần 2 NGANG RAW</p>
+                    </div>
+                </div>
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/7ds.jpg" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 0 <i class="fa-solid fa-comment"> 1K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-regular fa-images"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>Thất hình đại tội</h4>
+                        <p>Chap 8</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col w3-light-gray w3-container" style="width: 20%; flex: 1;">
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/thiếu gia không ngoan.jpg" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 0 <i class="fa-solid fa-comment"> 1K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-regular fa-images"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-container w3-center">
+                        <h4>Thiếu gia không ngoan</h4>
+                        <p>Chap 11</p>
+                    </div>
+                </div>
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/trái tim có nắng.webp" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 0 <i class="fa-solid fa-comment"> 1K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-regular fa-images"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>Trái tim có nắng</h4>
+                        <p>Chap 1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w3-row" style="display: flex;">
+            <div class="w3-col w3-light-gray w3-container" style="width: 20%; flex: 1;">
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/lâu đài man rợ.jpg" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 0 <i class="fa-solid fa-comment"> 49 <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-regular fa-images"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>LÂU ĐÀI MAN RỢ</h4>
+                        <p>Chap 4</p>
+                    </div>
+                </div>
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/9000t.jpg" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-purple w3-round">
+                                <div class="w3-bar-item w3-round">Đã hoàn thành</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 3 <i class="fa-solid fa-comment"> 5.75K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-regular fa-images"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>Hoàng phi cửu thiên tuế</h4>
+                        <p>Ngoại truyện 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col w3-light-gray w3-container" style="width: 20%; flex: 1;" onclick="changeContent()">
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/thiếu niên ca hành.jpg" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 3 <i class="fa-solid fa-comment"> 1.4K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center w3-hover-grey" style="cursor:pointer">
+                        <h4>Thiếu niên ca hành-Hoạt hình-FULL CÁC PHẦN</h4>
+                        <p>Tập 11-Phần 3 NGANG RAW</p>
+                    </div>
+                </div>
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/công tước.webp" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-purple w3-round">
+                                <div class="w3-bar-item  w3-round">Đã hoàn thành</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 1 <i class="fa-solid fa-comment"> 4.18K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-regular fa-images"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>Không muốn gả cho công tước cuồng anh trai đâu</h4>
+                        <p>111 End</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col w3-light-gray w3-container" style="width: 20%; flex: 1;">
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/khóc và cầu nguyện.jpg" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 3 <i class="fa-solid fa-comment"> 1.4K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-solid fa-film"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>Hãy khóc và cầu nguyện đi</h4>
+                        <p>18</p>
+                    </div>
+                </div>
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <div class="w3-display-container">
+                            <img src="../pic/vương phi.jpg" alt="Alps" style="width:100%;height:300px">
+                            <div class="w3-display-bottomleft w3-container">
+                                <div class="w3-bar w3-purple w3-round">
+                                    <div class="w3-bar-item  w3-round">Đã hoàn thành</div>
+                                </div>
+                                <div class="w3-bar w3-black w3-section">
+                                    <div class="w3-bar-item">
+                                        0 <i class="fa-solid fa-heart"></i> 1 <i class="fa-solid fa-comment"> 4.18K <i
+                                                class="fa-solid fa-eye"></i></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w3-display-bottomright w3-container">
+                                <div class="w3-bar w3-black w3-section">
+                                    <div class="w3-bar-item">
+                                        <i class="fa-regular fa-images"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="w3-container w3-center">
+
+                        <h4>Vương phi thật uy vũ</h4>
+                        <p>54 End-Sẽ không tha cho cô </p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col w3-light-gray w3-container" style="width: 20%; flex: 1;">
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/thiên quan tứ phúc.jpg" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 15 <i class="fa-solid fa-comment"> 14K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-solid fa-film"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>Thiên quan tứ phúc-Hoạt hình</h4>
+                        <p>Tập 9-phần 2 NGANG RAW</p>
+                    </div>
+                </div>
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/7ds.jpg" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 0 <i class="fa-solid fa-comment"> 1K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-regular fa-images"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>Thất hình đại tội</h4>
+                        <p>Chap 8</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col w3-light-gray w3-container" style="width: 20%; flex: 1;">
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/thiếu gia không ngoan.jpg" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 0 <i class="fa-solid fa-comment"> 1K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-regular fa-images"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-container w3-center">
+                        <h4>Thiếu gia không ngoan</h4>
+                        <p>Chap 11</p>
+                    </div>
+                </div>
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/trái tim có nắng.webp" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 0 <i class="fa-solid fa-comment"> 1K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-regular fa-images"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>Trái tim có nắng</h4>
+                        <p>Chap 1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w3-row" style="display: flex;">
+            <div class="w3-col w3-light-gray w3-container" style="width: 20%; flex: 1;">
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/lâu đài man rợ.jpg" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 0 <i class="fa-solid fa-comment"> 49 <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-regular fa-images"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>LÂU ĐÀI MAN RỢ</h4>
+                        <p>Chap 4</p>
+                    </div>
+                </div>
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/9000t.jpg" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-purple w3-round">
+                                <div class="w3-bar-item w3-round">Đã hoàn thành</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 3 <i class="fa-solid fa-comment"> 5.75K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-regular fa-images"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>Hoàng phi cửu thiên tuế</h4>
+                        <p>Ngoại truyện 2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col w3-light-gray w3-container" style="width: 20%; flex: 1;" onclick="changeContent()">
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/thiếu niên ca hành.jpg" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 3 <i class="fa-solid fa-comment"> 1.4K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center w3-hover-grey" style="cursor:pointer">
+                        <h4>Thiếu niên ca hành-Hoạt hình-FULL CÁC PHẦN</h4>
+                        <p>Tập 11-Phần 3 NGANG RAW</p>
+                    </div>
+                </div>
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/công tước.webp" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-purple w3-round">
+                                <div class="w3-bar-item  w3-round">Đã hoàn thành</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 1 <i class="fa-solid fa-comment"> 4.18K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-regular fa-images"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>Không muốn gả cho công tước cuồng anh trai đâu</h4>
+                        <p>111 End</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col w3-light-gray w3-container" style="width: 20%; flex: 1;">
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/khóc và cầu nguyện.jpg" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 3 <i class="fa-solid fa-comment"> 1.4K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-solid fa-film"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>Hãy khóc và cầu nguyện đi</h4>
+                        <p>18</p>
+                    </div>
+                </div>
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <div class="w3-display-container">
+                            <img src="../pic/vương phi.jpg" alt="Alps" style="width:100%;height:300px">
+                            <div class="w3-display-bottomleft w3-container">
+                                <div class="w3-bar w3-purple w3-round">
+                                    <div class="w3-bar-item  w3-round">Đã hoàn thành</div>
+                                </div>
+                                <div class="w3-bar w3-black w3-section">
+                                    <div class="w3-bar-item">
+                                        0 <i class="fa-solid fa-heart"></i> 1 <i class="fa-solid fa-comment"> 4.18K <i
+                                                class="fa-solid fa-eye"></i></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w3-display-bottomright w3-container">
+                                <div class="w3-bar w3-black w3-section">
+                                    <div class="w3-bar-item">
+                                        <i class="fa-regular fa-images"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="w3-container w3-center">
+
+                        <h4>Vương phi thật uy vũ</h4>
+                        <p>54 End-Sẽ không tha cho cô </p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col w3-light-gray w3-container" style="width: 20%; flex: 1;">
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/thiên quan tứ phúc.jpg" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 15 <i class="fa-solid fa-comment"> 14K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-solid fa-film"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>Thiên quan tứ phúc-Hoạt hình</h4>
+                        <p>Tập 9-phần 2 NGANG RAW</p>
+                    </div>
+                </div>
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/7ds.jpg" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 0 <i class="fa-solid fa-comment"> 1K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-regular fa-images"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>Thất hình đại tội</h4>
+                        <p>Chap 8</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col w3-light-gray w3-container" style="width: 20%; flex: 1;">
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/thiếu gia không ngoan.jpg" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 0 <i class="fa-solid fa-comment"> 1K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-regular fa-images"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-container w3-center">
+                        <h4>Thiếu gia không ngoan</h4>
+                        <p>Chap 11</p>
+                    </div>
+                </div>
+                <div class="w3-card-4" style="margin-bottom: 20px;">
+                    <div class="w3-display-container">
+                        <img src="../pic/trái tim có nắng.webp" alt="Alps" style="width:100%;height:300px">
+                        <div class="w3-display-bottomleft w3-container">
+                            <div class="w3-bar w3-green w3-round">
+                                <div class="w3-bar-item  w3-round">Đang xuất bản</div>
+                            </div>
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    0 <i class="fa-solid fa-heart"></i> 0 <i class="fa-solid fa-comment"> 1K <i
+                                            class="fa-solid fa-eye"></i></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-display-bottomright w3-container">
+                            <div class="w3-bar w3-black w3-section">
+                                <div class="w3-bar-item">
+                                    <i class="fa-regular fa-images"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-center">
+                        <h4>Trái tim có nắng</h4>
+                        <p>Chap 1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div> 
+    <div id="footer"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+    <script type="text/babel" src="../js/NavBar.js"></script>
+    <script type="text/babel" src="../js/Footer.js"></script>
+    <script type="text/babel">
+        function Product() {
+            return (
+                <div>
+                    <NavBar productLinkColor="orangered" />
+                </div>
+            );
+        }
+        ReactDOM.render(<Product />, document.getElementById('rootProduct'));
+
+    </script>
+    <script src="../js/truyen.js"></script>
+</body>
+
+</html>

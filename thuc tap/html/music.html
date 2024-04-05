@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music Videos</title>
+        <link rel="stylesheet" href="../css/Music.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.css">
+    </head>
+    <body>
+        <div id="rootProduct"></div>
+        <div class="header">
+            <h2 class="w3-center"><b>Music Videos</b></h2>
+            <p class="w3-center"><b>Home > Products > </b>Music Videos</p>
+        </div>
+        <div class=" w3-center">
+            <h1 class="w3-xxxlarge"><b>MUSIC VIDEOS</b></h1>
+        </div>
+        <div class="w3-row-padding" style="padding:5% 10%">
+            <div class="w3-col s4 youtube-link" data-link="0UiYIIMuQDE">
+                <div class="w3-display-container">
+                    <img src="../pic/ơ sao bé k lắc.jpg" style="width:100%">
+                    <div class="w3-display-middle w3-large" style="padding-bottom: 20%;"><i class="fa-regular fa-circle-play" style="color: #fff;font-size:48px"></i></div>
+                    <h4><b>Ơ sao bé không lắc</b></h4>
+                    <p class="w3-text-gray">JULY 2019</p>
+                </div>
+            </div>
+            <div class="w3-col s4 youtube-link" data-link="M4Yx4W3MIU8">
+                <div class="w3-display-container">
+                    <img src="../pic/nguoi tinh nho be.jpg" style="width:100%">
+                    <div class="w3-display-middle w3-large" style="padding-bottom: 20%;"><i class="fa-regular fa-circle-play" style="color: #fff;font-size:48px"></i></div>
+                    <h4><b>Người tình nhỏ bé</b></h4>
+                    <p class="w3-text-gray">JUNE 2019</p>
+                </div>
+            </div>
+            <div class="w3-col s4 youtube-link" data-link="rxcQhgS8a5Q">
+                <div class="w3-display-container">
+                    <img src="../pic/game.jpg" style="width:100%">
+                    <div class="w3-display-middle w3-large" style="padding-bottom: 20%;"><i class="fa-regular fa-circle-play" style="color: #fff;font-size:48px"></i></div>
+                    <h4><b>Mượn game tỏ tình</b></h4>
+                    <p class="w3-text-gray">APRIL 2019</p>
+                </div>
+            </div>
+        </div>
+        <div class="w3-row-padding" style="padding:5% 10%">
+            <div class="w3-col s4 youtube-link" data-link="GBaVe3YKvVE">
+                <div class="w3-display-container">
+                    <img src="../pic/xinh thì" style="width:100%">
+                    <div class="w3-display-middle w3-large" style="padding-bottom: 20%;"><i class="fa-regular fa-circle-play" style="color: #fff;font-size:48px"></i></div>
+                    <h4><b>Khi mình xinh thì mình làm gì</b></h4>
+                    <p class="w3-text-gray">MARCH 2018</p>
+                </div>
+            </div>
+            <div class="w3-col s4 youtube-link" data-link="aGUQsb31TEw">
+                <div class="w3-display-container">
+                    <img src="../pic/mượn rượu.jpg" style="width:100%">
+                    <div class="w3-display-middle w3-large" style="padding-bottom: 20%;"><i class="fa-regular fa-circle-play" style="color: #fff;font-size:48px"></i></div>
+                    <h4><b>Mượn rượu tỏ tình</b></h4>
+                    <p class="w3-text-gray">FEBRUARY 2019</p>
+                </div>
+            </div>
+            <div class="w3-col s4 youtube-link" data-link="kDmOOj5Y0DI">
+                <div class="w3-display-container">
+                    <img src="../pic/cũ.jpg" style="width:100%">
+                    <div class="w3-display-middle w3-large" style="padding-bottom: 20%;"><i class="fa-regular fa-circle-play" style="color: #fff;font-size:48px"></i></div>
+                    <h4><b>Chuyện cũ bỏ qua</b></h4>
+                    <p class="w3-text-gray">DECEMBER 2018</p>
+                </div>
+            </div>
+        </div>
+        <div class="youtube-player-overlay ">
+            <div class="youtube-player-popup">
+                <iframe src="https://www.youtube.com/embed/"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div id="footer"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+        <script type="text/babel" src="../js/NavBar.js"></script>
+        <script type="text/babel" src="../js/Footer.js"></script>
+        <script type="text/babel">
+            function Product() {
+                return (
+                  <div>
+                    <NavBar productLinkColor="orangered"/>
+                  </div>
+                );
+              }
+              ReactDOM.render(<Product/>, document.getElementById('rootProduct'));
+              
+        </script>
+        <script src="../js/music.js"></script>
+    </body>
+</html>
