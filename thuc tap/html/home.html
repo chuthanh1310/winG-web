@@ -9,56 +9,52 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-    
+
 </head>
 
 <body>
     <div id="rootHome"></div>
+
     <div class="slideshow-container">
 
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade" >
-          
-          <img src="../pic/slide1.jpg" style="width:100%">
-          <div class="text">
-            <p>Music Beats</p>
-            <p class="w3-xxxlarge" style="font-family: Sofia, cursive;">Music for every one</p>
-            <button class="w3-button w3-deep-orange w3-round-xxlarge">Learn More</button>
-          </div>
+        <div class="mySlides fade">
+            
+            <img src="../pic/slide1.jpg" style="width:100%">
+            <div class="text">
+                <p>Music Beats</p>
+            </div>
+            <div class="text2">
+                <h2 style="font-family: Sofia, cursive;">Music for every one</h2>
+            </div>
+        </div>
 
-        </div>
-      
         <div class="mySlides fade">
-          
-          <img src="../pic/slide2.jpg" style="width:100%">
-          <div class="text">
-            <p>Music Beats</p>
-            <p class="w3-xxxlarge" style="font-family: Sofia, cursive;">Music for every one</p>
-            <button class="w3-button w3-deep-orange w3-round-xxlarge">Learn More</button>
-          </div>
+            
+            <img src="../pic/slide2.jpg" style="width:100%">
+            <div class="text">
+                <p>Music Beats</p>
+            </div>
+            <div class="text2">
+                <h2 style="font-family: Sofia, cursive;">Music for every one</h2>
+            </div>
         </div>
-      
+
         <div class="mySlides fade">
-          
-          <img src="../pic/slide3.jpg" style="width:100%">
-          <div class="text">
-            <p>Music Beats</p>
-            <p class="w3-xxxlarge" style="font-family: Sofia, cursive;">Music for every one</p>
-            <button class="w3-button w3-deep-orange w3-round-xxlarge">Learn More</button></div>
+            
+            <img src="../pic/slide3.jpg" style="width:100%">
+            <div class="text">
+                <p>Music Beats</p>
+            </div>
+            <div class="text2">
+                <h2 style="font-family: Sofia, cursive;">Music for every one</h2>
+            </div>
         </div>
-        
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <br>
-      
-      <!-- The dots/circles -->
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-      </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+    <br>
     <div class="w3-row" style="padding: 10%;">
         <div class="w3-col s6 ">
             <h2>Welcome to <span style="font-weight: normal;"> Win G</span></h2>
@@ -436,6 +432,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
     <script type="text/babel" src="../js/NavBar.js"></script>
     <script type="text/babel">
+        function Home() {
+            return (
+                <div>
+                    <NavBar homeLinkColor="orangered" />
+                </div>
+            );
+        }
         ReactDOM.render(<Home />, document.getElementById('rootHome'));
     </script>
     <script type="text/babel" src="../js/Footer.js"></script>

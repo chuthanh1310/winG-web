@@ -44,12 +44,6 @@ function NavBar(props) {
   );
 }
 
-function Home() {
-  return (
-    <div>
-      <NavBar homeLinkColor="orangered"/>
-    </div>
-  );
-}
+
 
 
