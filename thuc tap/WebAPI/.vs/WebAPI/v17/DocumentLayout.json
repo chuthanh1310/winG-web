@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\winG-web\\thuc tap\\WebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|d:\\wing-web\\thuc tap\\webapi\\webapi\\controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\artistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|d:\\wing-web\\thuc tap\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|d:\\wing-web\\thuc tap\\webapi\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|d:\\wing-web\\thuc tap\\webapi\\webapi\\model\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\model\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|d:\\wing-web\\thuc tap\\webapi\\webapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|d:\\wing-web\\thuc tap\\webapi\\webapi\\model\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\model\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|d:\\wing-web\\thuc tap\\webapi\\webapi\\repository\\albumrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\repository\\albumrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|d:\\wing-web\\thuc tap\\webapi\\webapi\\controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\albumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|d:\\wing-web\\thuc tap\\webapi\\webapi\\model\\comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\model\\comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|d:\\wing-web\\thuc tap\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|d:\\wing-web\\thuc tap\\webapi\\webapi\\repository\\comicrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\repository\\comicrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|d:\\wing-web\\thuc tap\\webapi\\webapi\\controllers\\comicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BCDE5E1-AD4C-47B2-B122-683310488538}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\comicscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ArtistsController.cs",
+              "DocumentMoniker": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Controllers\\ArtistsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\ArtistsController.cs",
+              "ToolTip": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Controllers\\ArtistsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\ArtistsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T04:46:30.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-22T04:42:53.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-22T04:42:48.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Data\\ApplicationDBContext.cs",
+              "ToolTip": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "WebAPI\\Data\\ApplicationDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T04:14:43.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AlbumRepo.cs",
+              "DocumentMoniker": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Repository\\AlbumRepo.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Repository\\AlbumRepo.cs",
+              "ToolTip": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Repository\\AlbumRepo.cs",
+              "RelativeToolTip": "WebAPI\\Repository\\AlbumRepo.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwCYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T04:05:24.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AlbumsController.cs",
+              "DocumentMoniker": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Controllers\\AlbumsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\AlbumsController.cs",
+              "ToolTip": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Controllers\\AlbumsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\AlbumsController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwCQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T04:04:55.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Album.cs",
+              "DocumentMoniker": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Model\\Album.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Model\\Album.cs",
+              "ToolTip": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Model\\Album.cs",
+              "RelativeToolTip": "WebAPI\\Model\\Album.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T04:03:46.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T03:59:23.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Comic.cs",
+              "DocumentMoniker": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Model\\Comic.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Model\\Comic.cs",
+              "ToolTip": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Model\\Comic.cs",
+              "RelativeToolTip": "WebAPI\\Model\\Comic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T03:56:18.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Artist.cs",
+              "DocumentMoniker": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Model\\Artist.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Model\\Artist.cs",
+              "ToolTip": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Model\\Artist.cs",
+              "RelativeToolTip": "WebAPI\\Model\\Artist.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T03:56:09.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ComicRepo.cs",
+              "DocumentMoniker": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Repository\\ComicRepo.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Repository\\ComicRepo.cs",
+              "ToolTip": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Repository\\ComicRepo.cs",
+              "RelativeToolTip": "WebAPI\\Repository\\ComicRepo.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T03:55:13.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ComicsController.cs",
+              "DocumentMoniker": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Controllers\\ComicsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\ComicsController.cs",
+              "ToolTip": "D:\\winG-web\\thuc tap\\WebAPI\\WebAPI\\Controllers\\ComicsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\ComicsController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwEcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T17:16:54.33Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
